@@ -113,7 +113,7 @@ export const info = {
         },
         {
             title: "Project 2",
-            live: "https://lpich74.github.io/p3s_bluel/",
+            live : null,
             source: "https://github.com/lpich74/p3s_bluel.git",
             image: mock2,
             description: {   

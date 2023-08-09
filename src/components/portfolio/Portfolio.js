@@ -17,7 +17,7 @@ export default function Portfolio() {
                         short={project.description.short}
                         issues={project.description.issues}
                         developedSkills={project.description.developedSkills}
-                    />
+                        />
                    </Grid>
                 ))}
             </Grid>
