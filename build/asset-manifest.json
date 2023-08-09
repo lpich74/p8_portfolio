@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e839cbdf.css",
+    "main.js": "/static/js/main.919df5f8.js",
+    "static/media/javascript-logo.png": "/static/media/javascript-logo.cae65a84867e9d6ad7bf.png",
+    "static/media/mongoDB-logo.png": "/static/media/mongoDB-logo.6170bacefd8a1f69ca74.png",
+    "static/media/react-logo.png": "/static/media/react-logo.2f2532db663fd5ec5f95.png",
+    "static/media/github-logo.png": "/static/media/github-logo.79538fae781059ffde36.png",
+    "static/media/trello-logo.png": "/static/media/trello-logo.9536b80cc51289d1b456.png",
+    "static/media/mock1.png": "/static/media/mock1.955e9f19675cd59d60b2.png",
+    "static/media/self.png": "/static/media/self.0bc80a6173637710b8b1.png",
+    "static/media/mock2.png": "/static/media/mock2.b89f9a5fcbee49e8f88b.png",
+    "static/media/mock3.png": "/static/media/mock3.e11f6103909e8c52d703.png",
+    "static/media/figma-logo.png": "/static/media/figma-logo.057f355f7a2ac3f472f8.png",
+    "static/media/nodejs-logo.png": "/static/media/nodejs-logo.31c0e97d5776c294d370.png",
+    "static/media/git-logo.png": "/static/media/git-logo.dfdd0989ffe0184bdd68.png",
+    "static/media/css3-logo.png": "/static/media/css3-logo.38845b25c2c40b029c01.png",
+    "static/media/expressjs-logo.png": "/static/media/expressjs-logo.39a0f4c3d981885c64f8.png",
+    "index.html": "/index.html",
+    "main.e839cbdf.css.map": "/static/css/main.e839cbdf.css.map",
+    "main.919df5f8.js.map": "/static/js/main.919df5f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e839cbdf.css",
+    "static/js/main.919df5f8.js"
+  ]
+}

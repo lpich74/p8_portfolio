@@ -14,9 +14,9 @@ export default function Portfolio() {
                         live={project.live}
                         source={project.source}
                         title={project.title}
-                        short={project.description[0].short}
-                        issues={project.description[0].issues}
-                        developedSkills={project.description[0].developedSkills}
+                        short={project.description.short}
+                        issues={project.description.issues}
+                        developedSkills={project.description.developedSkills}
                     />
                    </Grid>
                 ))}

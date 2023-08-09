@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Collapse, Button } from '@mui/material';
+import { Collapse, Button, Accordion } from '@mui/material';
 import './Collapse.css';
 
 function CustomCollapse(props) {
