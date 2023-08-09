@@ -22,5 +22,5 @@ export const logos = [
     <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}><img src={trelloLogo} alt="javascriptLogo" width={50} height={50} /> trello</div>,
     <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}><img src={nodejsLogo} alt="javascriptLogo" width={50} height={50} /> node.js</div>,
     <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}><img src={expressjsLogo} alt="javascriptLogo" width={50} height={50} /> express.js</div>,
-    <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}><img src={mongoDBLogo} alt="javascriptLogo" width={50} height={50} /> mongoDB</div>,
+    <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}><img src={mongoDBLogo} alt="javascriptLogo" width={50} height={50} /> mongoDB</div>
 ]
