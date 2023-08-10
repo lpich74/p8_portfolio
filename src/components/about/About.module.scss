@@ -10,8 +10,8 @@
 
 .skills {
   columns: 1;
-  @media only screen and (min-width: 940px) {
-    columns: 2;
+  @media only screen and (min-width: 1150px) {
+    columns: 1;
   }
 
   li {

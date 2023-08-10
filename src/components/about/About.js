@@ -24,13 +24,17 @@ export default function About() {
                 <span style={{color: info.baseColor}}>{firstName}_{info.lastName.toLowerCase()} $ </span>
                 <span style={{color: info.baseColor2}}>cd skills/tools</span>
             </p>
-            <p style={{color: info.baseColor2}}> Proficient With</p>
+            <p style={{color: info.baseColor2}}> Front End</p>
             <ul className={Style.skills}>
-                {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+                {info.skills.frontEnd.map((frontEndSkill, index) => <li key={index}>{frontEndSkill}</li>)}
             </ul>
-            <p style={{color: info.baseColor2}}> Exposed To</p>
+            <p style={{color: info.baseColor2}}> Back End</p>
             <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
+                {info.skills.backEnd.map((backEndSkill, index) => <li key={index}>{backEndSkill}</li>)}
+            </ul>
+            <p style={{color: info.baseColor2}}> Other tools</p>
+            <ul className={Style.skills}>
+                {info.skills.other.map((otherSkill, index) => <li key={index}>{otherSkill}</li>)}
             </ul>
         </>;
     }

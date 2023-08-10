@@ -17,67 +17,15 @@
 
 .p-sections {
     font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.8em;
 }
 
 /*
 @media screen and (max-width: 710px) {
-    .collapse-housing {
-        min-width: 47%;
-    }
+
 }
 
 @media screen and (max-width: 375px) {
-    .collapse {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
 
-    .collapse-housing {
-        min-width: unset;
-        margin-bottom: unset;
-    }
-
-    .collapse-header {
-        padding: 10px 11px 10px 10px;
-    }
-
-    .collapse-header-housing {
-        border-radius: 5px;
-        padding: 10px 10px 10px 10px;
-    }
-
-    .collapse-title {
-        color: white;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 142.6%;
-        margin: 0;
-    }
-
-    .fa-solid {
-        color: white;
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .collapse-content-housing {
-        border-radius: 5px;    
-    }
-
-    .collapse-text {
-        font-weight: 400;
-        font-size: 12px;
-        padding: 13px 20px 20px 20px;
-    }
-
-    .equipments-list {
-        font-weight: 400;
-        font-size: 12px;
-        padding: 0;
-    }
 }
 */

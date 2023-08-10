@@ -44,7 +44,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Junior Front-end Developer"
+            text: "Front End Developer since 2023"
         },
         {
             emoji: "📧",
@@ -66,8 +66,9 @@ export const info = {
     bio: "Hi, I'm Lucas, a budding junior web developer who has embarked on an exciting journey in the world of coding. With a fresh perspective and a determination to learn, I have chosen to forge a path in web development, fueled by curiosity and creativity. Armed with a passion for technology and a hunger for growth, I am ready to dive into the dynamic realm of web development and make my mark.",
     skills:
         {
-            proficientWith: [...logos.slice(0, 8)],
-            exposedTo: [...logos.slice(8, 11)]
+            frontEnd: [logos[0], logos[1]],
+            backEnd: [logos[5], logos[6]],
+            other: [logos[2], logos[4], logos[7], logos[3]]
         }
     ,
     hobbies: [
@@ -116,22 +117,6 @@ export const info = {
             live : null,
             source: "https://github.com/lpich74/p3s_bluel.git",
             image: mock2,
-            description: {   
-                short: "This project consisted in developing the front end of a web application for a real estate agency by using React. A designer had previously taken care of the mockup with Figma.",
-                issues: "At first, I had troubles understanding how the props work and also the different hooks. Also, I had to make sure I didn't mix up JS with JSX coding. Practising and seeking explanations through docs and experienced developers were the best ways to deal with these issues.",
-                developedSkills: [
-                    "• Setting up navigation between the pages of the application using React Router",
-                    "• Initializing an application with Create React App",
-                    "• Developing elements of a website's interface using React components",
-                    "• Implementing CSS animations"
-                ]
-            }
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3,
             description: {   
                 short: "This project consisted in developing the front end of a web application for a real estate agency by using React. A designer had previously taken care of the mockup with Figma.",
                 issues: "At first, I had troubles understanding how the props work and also the different hooks. Also, I had to make sure I didn't mix up JS with JSX coding. Practising and seeking explanations through docs and experienced developers were the best ways to deal with these issues.",
