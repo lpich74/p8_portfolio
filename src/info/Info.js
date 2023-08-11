@@ -1,7 +1,6 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
 import { logos } from "../mylogos/Mylogos"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -118,13 +117,12 @@ export const info = {
             source: "https://github.com/lpich74/p3s_bluel.git",
             image: mock2,
             description: {   
-                short: "This project consisted in developing the front end of a web application for a real estate agency by using React. A designer had previously taken care of the mockup with Figma.",
-                issues: "At first, I had troubles understanding how the props work and also the different hooks. Also, I had to make sure I didn't mix up JS with JSX coding. Practising and seeking explanations through docs and experienced developers were the best ways to deal with these issues.",
+                short: "The goal of this project was to create a dynamic webpage with JavaScript. I had to use the existing back end code to call the different routes of an API.",
+                issues: "Understanding how JavaScript and APIs worked was a real challenge since it was my first expericence with this language. A few hours and exercises using JS were necessary to finally complete this project.",
                 developedSkills: [
-                    "• Setting up navigation between the pages of the application using React Router",
-                    "• Initializing an application with Create React App",
-                    "• Developing elements of a website's interface using React components",
-                    "• Implementing CSS animations"
+                    "• Retrieving user data in JavaScript through forms",
+                    "• Manipulating DOM elements with JavaScript",
+                    "• Managing user events with JavaScript"
                 ]
             }
         },
