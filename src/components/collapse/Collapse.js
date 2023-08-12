@@ -1,33 +1,31 @@
-import { useState } from 'react';
-import { Collapse, Button, Accordion } from '@mui/material';
-import './Collapse.css';
+import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Style from './Collapse.module.scss';
 
 function CustomCollapse(props) {
-  const [expanded, setExpanded] = useState(false);
-
-  const handleToggle = () => {
-    setExpanded(!expanded);
-  };
-
   return (
-    <div className='project-description-box'>
-      <Button
-        onClick={handleToggle}
-        variant="contained"
-        color="info">
-        <span style={{fontSize: '1.5em'}}>{'A'}</span>
-        <span style={{textTransform: 'lowercase', fontSize: '1.5em'}}>{'bout this project'}</span>
-      </Button>
-      <Collapse in={expanded}>
-        <div className='collapse-body'>
-          <h3 className='title-sections'>Description :</h3><br />
-            <div className='p-sections'>{props.content[0]}</div><br /><br />
-          <h3 className='title-sections'>Issues and resolutions :</h3><br />
-            <div className='p-sections'>{props.content[1]}</div><br /><br />
-          <h3 className='title-sections'>Skills :</h3><br />
-            <div className='p-sections'>{props.content[2]}</div>
-        </div>
-      </Collapse>
+    <div className={Style['project-description-box']}>
+      <Accordion className={Style.collapse} style={{ fontFamily: 'Roboto, Helvetica, sans-serif', margin: '20px 40px 40px 40px', borderRadius: '5px' }}>
+        <AccordionSummary
+          style={{ borderRadius: '5px' }}
+          expandIcon={<ExpandMoreIcon style={{ color: 'white', fontSize: '30px' }} />}
+          aria-controls="panel-content"
+          id="panel-header"
+        >
+          <Typography style={{ fontSize: '2em', color: 'white' }}>About this project</Typography>
+        </AccordionSummary>
+        <AccordionDetails style={{ backgroundColor: '#cbd2d0', borderRadius: '5px', padding: '25px 20px 10px 20px' }}>
+          {props.content.map((section, index) => (
+            <div style={{ backgroundColor: '#cbd2d0'}} key={index}>
+              <h3 style={{ fontSize: '1.8em', color: 'rgb(0, 66, 1705)', marginBottom: 12 }} className="title-sections">
+                {index === 0 ? 'Description :' : index === 1 ? 'Issues and resolutions :' : 'Skills :'}
+              </h3>
+              <div style={{ backgroundColor: '#cbd2d0', fontSize: '1.6em' }}>{section}</div>
+              <br /><br />
+            </div>
+          ))}
+        </AccordionDetails>
+      </Accordion>
     </div>
   );
 }

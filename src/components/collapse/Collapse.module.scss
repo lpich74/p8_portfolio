@@ -1,0 +1,27 @@
+@import "../../variables.modules";
+
+.collapse {
+  a, i, li, div {
+    background-color: rgb(0,66,1705);
+    color: $dark;
+    transition: color 400ms;
+    border-radius: 5px;
+  }
+}
+
+
+/*
+.light {
+  background-color: $white;
+  color: $dark;
+  transition: all 400ms;
+}
+
+@media screen and (max-width: 710px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+*/

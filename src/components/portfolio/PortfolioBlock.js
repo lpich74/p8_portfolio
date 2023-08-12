@@ -7,7 +7,7 @@ function PortfolioBlock(props) {
    const {image, live, source, title, short, issues, developedSkills} = props;
 
    const skillsList = developedSkills.map((skill, index) => (
-      <li key={index}>{skill}</li>
+      <li style={{backgroundColor:'#cbd2d0'}} key={index}>{skill}</li>
    ));
 
    return (
