@@ -1,0 +1,30 @@
+@import "../variables.modules";
+
+.lineOfLogos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logoAndName {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logoAndNameFigma {
+    gap: 30px;
+}
+
+@media screen and (max-width: 899px) {
+    .logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logoFigma {
+        height: 40px;
+        width: auto;
+    }
+}

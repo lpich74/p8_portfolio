@@ -3,9 +3,6 @@ import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import { logos } from "../mylogos/Mylogos"
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
-
 export let colors = ["rgb(0,66,1705)", "rgb(254,199,0)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
@@ -13,22 +10,16 @@ These colors will be used to style your name on the homepage, the background of 
 the site.
  */
 
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
-
 export const info = {
     firstName: "Lucas",
     lastName: "Pichollet",
-    initials: "LP", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "LP",
     position: "a Front End Developer",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    selfPortrait: self,
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[1],
     baseColor2: "rgb(210,21,196)",
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
         {
             emoji: '👨‍🍳',
             text: 'Fueled by French and Italian cuisine'
@@ -91,14 +82,12 @@ export const info = {
             label: 'literature',
             emoji: '📖'
         }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [
         {
             title: "Project 1",
-            live: "https://lpich74.github.io/p6_kasa/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/lpich74/p6_kasa.git", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://lpich74.github.io/p6_kasa/",
+            source: "https://github.com/lpich74/p6_kasa.git",
             image: mock1,
             description: {   
                 short: "This project consisted in developing the front end of a web application for a real estate agency by using React. A designer had previously taken care of the mockup with Figma.",

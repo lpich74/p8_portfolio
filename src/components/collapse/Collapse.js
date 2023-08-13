@@ -3,24 +3,28 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Style from './Collapse.module.scss';
 
 function CustomCollapse(props) {
+  const { title, content, subtitles } = props
+
   return (
     <div className={Style['project-description-box']}>
-      <Accordion className={Style.collapse} style={{ fontFamily: 'Roboto, Helvetica, sans-serif', margin: '20px 40px 40px 40px', borderRadius: '5px' }}>
+      <Accordion
+        className={Style.collapse}
+        style={{ backgroundColor: '#27242f', fontFamily: 'Roboto, Helvetica, sans-serif', margin: '20px 40px 40px 40px', borderRadius: '10px' }}
+      >
         <AccordionSummary
-          style={{ borderRadius: '5px' }}
           expandIcon={<ExpandMoreIcon style={{ color: 'white', fontSize: '30px' }} />}
           aria-controls="panel-content"
           id="panel-header"
         >
-          <Typography style={{ fontSize: '2em', color: 'white' }}>About this project</Typography>
+          <Typography style={{ fontSize: '2.1em', color: 'white' }}>{title}</Typography>
         </AccordionSummary>
-        <AccordionDetails style={{ backgroundColor: '#cbd2d0', borderRadius: '5px', padding: '25px 20px 10px 20px' }}>
-          {props.content.map((section, index) => (
-            <div style={{ backgroundColor: '#cbd2d0'}} key={index}>
-              <h3 style={{ fontSize: '1.8em', color: 'rgb(0, 66, 1705)', marginBottom: 12 }} className="title-sections">
-                {index === 0 ? 'Description :' : index === 1 ? 'Issues and resolutions :' : 'Skills :'}
+        <AccordionDetails style={{ backgroundColor: '#27242f', borderRadius: '4px', padding: '25px 20px 10px 20px' }}>
+          {content.map((section, index) => (
+            <div style={{ backgroundColor: '#27242f'}} key={index}>
+              <h3 style={{ fontSize: '1.9em', color: 'rgb(254,199,0)', marginBottom: 12 }} className="title-sections">
+                {subtitles[index]}
               </h3>
-              <div style={{ backgroundColor: '#cbd2d0', fontSize: '1.6em' }}>{section}</div>
+              <div style={{ backgroundColor: '#27242f', fontSize: '1.7em' }}>{section}</div>
               <br /><br />
             </div>
           ))}

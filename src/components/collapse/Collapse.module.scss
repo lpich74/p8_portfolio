@@ -3,8 +3,8 @@
 .collapse {
   a, i, li, div {
     background-color: rgb(0,66,1705);
-    color: $dark;
-    transition: color 400ms;
+    color: $white;
+    transition: $transition;
     border-radius: 5px;
   }
 }

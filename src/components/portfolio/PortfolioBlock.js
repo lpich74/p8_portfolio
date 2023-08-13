@@ -7,7 +7,7 @@ function PortfolioBlock(props) {
    const {image, live, source, title, short, issues, developedSkills} = props;
 
    const skillsList = developedSkills.map((skill, index) => (
-      <li style={{backgroundColor:'#cbd2d0'}} key={index}>{skill}</li>
+      <li style={{backgroundColor:'#27242f', marginBottom: 5}} key={index}>{skill}</li>
    ));
 
    return (
@@ -24,6 +24,8 @@ function PortfolioBlock(props) {
             </Box>
          </Box>
          <CustomCollapse 
+            title='About this project'
+            subtitles={['Description :', 'Issues and resolutions :', 'Skills :']}
             content={[short, issues, <ul>{skillsList}</ul>]}
          />
       </Box>
