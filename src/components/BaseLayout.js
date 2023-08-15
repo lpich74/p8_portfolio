@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
 
 export default function BaseLayout() {
@@ -26,8 +26,6 @@ export default function BaseLayout() {
          localStorage.setItem('darkMode', 'false')
       }
    }, [])
-
-   console.log(process.env.REACT_APP_BASE_URL)
 
    return (
       <Box className={darkMode ? Style.dark : Style.light}>

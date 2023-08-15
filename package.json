@@ -2,7 +2,7 @@
   "name": "portfolioTemplate",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://lpich74.github.io/p8_portfolio",
+  "homepage": "https://lpich74.github.io/p8_portfolio/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
