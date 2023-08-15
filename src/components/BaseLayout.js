@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
 import Home from "./home/Home";
@@ -27,6 +27,8 @@ export default function BaseLayout() {
       }
    }, [])
 
+   console.log(process.env.REACT_APP_BASE_URL)
+
    return (
       <Box className={darkMode ? Style.dark : Style.light}>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
@@ -36,9 +38,9 @@ export default function BaseLayout() {
             </Grid>
             <Grid item flexGrow={1}>
                <Routes>
-                  <Route exact path={'/'} element={<Home/>}/>
-                  <Route exact path={'/about'} element={<About/>}/>
-                  <Route exact path={'/portfolio'} element={<Portfolio/>}/>
+                  <Route exact path={`/`} element={<Home/>}/>
+                  <Route exact path={`/about`} element={<About/>}/>
+                  <Route exact path={`/portfolio`} element={<Portfolio/>}/>
                </Routes>
             </Grid>
             <Grid item>

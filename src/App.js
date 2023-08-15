@@ -6,7 +6,7 @@ import {BrowserRouter} from "react-router-dom";
 function App() {
    return (
       <div>
-         <BrowserRouter>
+         <BrowserRouter basename={process.env.REACT_APP_BASE_URL}>
             <BaseLayout/>
          </BrowserRouter>
       </div>

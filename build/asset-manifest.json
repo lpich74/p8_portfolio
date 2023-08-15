@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/p8_portfolio/static/css/main.f9d94da4.css",
-    "main.js": "/p8_portfolio/static/js/main.1e8e482e.js",
+    "main.css": "/p8_portfolio/static/css/main.889b7b2d.css",
+    "main.js": "/p8_portfolio/static/js/main.9b274e25.js",
     "static/media/javascript-logo.png": "/p8_portfolio/static/media/javascript-logo.cae65a84867e9d6ad7bf.png",
     "static/media/mongoDB-logo.png": "/p8_portfolio/static/media/mongoDB-logo.6170bacefd8a1f69ca74.png",
     "static/media/react-logo.png": "/p8_portfolio/static/media/react-logo.2f2532db663fd5ec5f95.png",
@@ -17,11 +17,11 @@
     "static/media/css3-logo.png": "/p8_portfolio/static/media/css3-logo.38845b25c2c40b029c01.png",
     "static/media/expressjs-logo.png": "/p8_portfolio/static/media/expressjs-logo.39a0f4c3d981885c64f8.png",
     "index.html": "/p8_portfolio/index.html",
-    "main.f9d94da4.css.map": "/p8_portfolio/static/css/main.f9d94da4.css.map",
-    "main.1e8e482e.js.map": "/p8_portfolio/static/js/main.1e8e482e.js.map"
+    "main.889b7b2d.css.map": "/p8_portfolio/static/css/main.889b7b2d.css.map",
+    "main.9b274e25.js.map": "/p8_portfolio/static/js/main.9b274e25.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9d94da4.css",
-    "static/js/main.1e8e482e.js"
+    "static/css/main.889b7b2d.css",
+    "static/js/main.9b274e25.js"
   ]
 }
