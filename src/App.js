@@ -6,7 +6,7 @@ import { HashRouter, BrowserRouter} from "react-router-dom";
 function App() {
    return (
       <div>
-         <HashRouter basename={process.env.REACT_APP_BASE_URL}>
+         <HashRouter>
             <BaseLayout/>
          </HashRouter>
       </div>
