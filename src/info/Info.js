@@ -30,7 +30,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'Based in the France'
+            text: 'Based in France'
         },
         {
             emoji: "💼",
