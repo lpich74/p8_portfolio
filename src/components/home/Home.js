@@ -6,6 +6,7 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import qrCodeCV from "../../img/qrcodeCV.png"
 
 export default function Home() {
 
@@ -29,6 +30,14 @@ export default function Home() {
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
             </Box>
+         </Box>
+         <Box  display={'flex'} flexDirection={'column'} alignItems={'center'}
+               width={{xs: '20vh', md: '21vh'}}
+               height={{xs: '20vh', md: '21vh'}}
+               gap={{xs: '0.5rem', md: '0.75rem'}}
+               p={'0.75rem'} mt={{xs: '1rem', sm: 0}} mb={{xs: '1rem', sm: 0}} ml={{xs: 0, md:'1rem'}} mr={{xs: 0, md:0}}>
+               <img alt={'qrcode-CV'} component={'img'} src={qrCodeCV} />
+               <h3>View my résumé</h3>
          </Box>
       </Box>
    )

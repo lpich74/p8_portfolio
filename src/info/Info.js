@@ -1,6 +1,9 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
+import mock3 from "../img/mock3.png"
+import mock4 from "../img/mock4.png"
+import mock5 from "../img/mock5.png"
 import { logos } from "../mylogos/Mylogos"
 
 export let colors = ["rgb(0,66,1705)", "rgb(254,199,0)"];
@@ -112,6 +115,51 @@ export const info = {
                     "• Retrieving user data in JavaScript through forms",
                     "• Manipulating DOM elements with JavaScript",
                     "• Managing user events with JavaScript"
+                ]
+            }
+        },
+        {
+            title: "Project 3",
+            live : "https://lpich74.github.io/p2booki/",
+            source: "https://github.com/lpich74/p2booki",
+            image: mock3,
+            description: {   
+                short: "",
+                issues: "",
+                developedSkills: [
+                    "• ",
+                    "• ",
+                    "• "
+                ]
+            }
+        },
+        {
+            title: "Project 4",
+            live : null,
+            source: "https://github.com/lpich74/p7_vieux_grimoire",
+            image: mock4,
+            description: {   
+                short: "",
+                issues: "",
+                developedSkills: [
+                    "• ",
+                    "• ",
+                    "• "
+                ]
+            }
+        },
+        {
+            title: "Project 5",
+            live : "https://lpich74.github.io/p5n_carducci/",
+            source: "https://github.com/lpich74/p5n_carducci",
+            image: mock5,
+            description: {   
+                short: "",
+                issues: "",
+                developedSkills: [
+                    "• ",
+                    "• ",
+                    "• "
                 ]
             }
         },
