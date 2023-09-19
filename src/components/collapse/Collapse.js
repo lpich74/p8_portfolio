@@ -24,7 +24,7 @@ function CustomCollapse(props) {
               <h3 style={{ fontSize: '1.9em', color: 'rgb(254,199,0)', marginBottom: 12 }} className="title-sections">
                 {subtitles[index]}
               </h3>
-              <div style={{ backgroundColor: '#27242f', fontSize: '1.7em' }}>{section}</div>
+              <div className={Style.section} style={{ backgroundColor: '#27242f', fontSize: '1.7em' }}>{section}</div>
               <br /><br />
             </div>
           ))}
