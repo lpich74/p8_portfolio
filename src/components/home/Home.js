@@ -6,7 +6,7 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
-import qrCodeCV from "../../img/qrcodeCV.png";
+import qrCodeCV from "../../img/qrcodeCV.svg";
 
 export default function Home() {
 
