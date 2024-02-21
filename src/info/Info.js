@@ -56,7 +56,7 @@ export const info = {
             label: 'linkedin'
         },
     ],
-    bio: "👋 Hello, I'm Lucas, a passionate web developer with 2 years of experience in the coding world. Always on the lookout for new challenges to deepen my skills, I strive to create effective and elegant technological solutions that meet user needs. 💼 I'm open to exciting opportunities in the web development field where I can bring my dedication, creativity, and technical expertise.",
+    bio: "👋 Hello, I'm Lucas, a passionate web developer with 2 years of experience in the coding world. Always on the lookout for new challenges to deepen my skills, I strive to create effective and elegant technological solutions that meet user needs. I'm open to exciting opportunities in the web development field where I can bring my dedication, creativity, and technical expertise.",
     skills:
         {
             frontEnd: [logos[0], logos[1]],
