@@ -56,7 +56,7 @@ export const info = {
             label: 'linkedin'
         },
     ],
-    bio: "Hi, I'm Lucas, a budding junior web developer who has embarked on an exciting journey in the world of coding. With a fresh perspective and a determination to learn, I have chosen to forge a path in web development, fueled by curiosity and creativity. Armed with a passion for technology and a hunger for growth, I am ready to dive into the dynamic realm of web development and make my mark.",
+    bio: "👋 Hello, I'm Lucas, a passionate web developer with 2 years of experience in the coding world. Always on the lookout for new challenges to deepen my skills, I strive to create effective and elegant technological solutions that meet user needs. 💼 I'm open to exciting opportunities in the web development field where I can bring my dedication, creativity, and technical expertise.",
     skills:
         {
             frontEnd: [logos[0], logos[1]],
