@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/p8_portfolio/static/css/main.889b7b2d.css",
-    "main.js": "/p8_portfolio/static/js/main.c0e66a5b.js",
+    "main.js": "/p8_portfolio/static/js/main.7191a439.js",
     "static/media/javascript-logo.png": "/p8_portfolio/static/media/javascript-logo.cae65a84867e9d6ad7bf.png",
     "static/media/mongoDB-logo.png": "/p8_portfolio/static/media/mongoDB-logo.6170bacefd8a1f69ca74.png",
     "static/media/react-logo.png": "/p8_portfolio/static/media/react-logo.2f2532db663fd5ec5f95.png",
@@ -15,17 +15,17 @@
     "static/media/figma-logo.png": "/p8_portfolio/static/media/figma-logo.057f355f7a2ac3f472f8.png",
     "static/media/mock4.png": "/p8_portfolio/static/media/mock4.2efd62e3afeef1f87978.png",
     "static/media/lighthouse-logo.png": "/p8_portfolio/static/media/lighthouse-logo.7c3b75ef38091376e724.png",
-    "static/media/qrcodeCV.svg": "/p8_portfolio/static/media/qrcodeCV.0f328f96faba823844a80e24366788a6.svg",
+    "static/media/qrcodeCV.svg": "/p8_portfolio/static/media/qrcodeCV.a2d77e14622e46880c95354d3d66639e.svg",
     "static/media/nodejs-logo.png": "/p8_portfolio/static/media/nodejs-logo.31c0e97d5776c294d370.png",
     "static/media/git-logo.png": "/p8_portfolio/static/media/git-logo.dfdd0989ffe0184bdd68.png",
     "static/media/css3-logo.png": "/p8_portfolio/static/media/css3-logo.38845b25c2c40b029c01.png",
     "static/media/expressjs-logo.png": "/p8_portfolio/static/media/expressjs-logo.39a0f4c3d981885c64f8.png",
     "index.html": "/p8_portfolio/index.html",
     "main.889b7b2d.css.map": "/p8_portfolio/static/css/main.889b7b2d.css.map",
-    "main.c0e66a5b.js.map": "/p8_portfolio/static/js/main.c0e66a5b.js.map"
+    "main.7191a439.js.map": "/p8_portfolio/static/js/main.7191a439.js.map"
   },
   "entrypoints": [
     "static/css/main.889b7b2d.css",
-    "static/js/main.c0e66a5b.js"
+    "static/js/main.7191a439.js"
   ]
 }
