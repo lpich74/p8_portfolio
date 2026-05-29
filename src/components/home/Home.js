@@ -40,7 +40,7 @@ export default function Home() {
                <a style={{fontSize: '1.3em'}} 
                   target='_blank'
                   rel='noreferrer'
-                  href='https://drive.google.com/file/d/1CWnXhIQu6XxfNyMS2M5-3MElpRQQKk94/view?usp=sharing'>
+                  href='https://drive.google.com/file/d/1a-IxdRv9Ylod2W8nCy5_pYaZpmEpeP_l/view?usp=sharing'>
                   View my résumé
                </a>
          </Box>
